@@ -1,0 +1,28 @@
+.wrap-p{
+   /* margin:0 auto; */
+    width: 793.7007874px;
+    height: 1122.519685px;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+.conten{
+    font-family: 'Times New Roman', Times, serif;
+}
+.kop{
+    margin-top:-145px;
+}
+.kop h4,h5,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wrap-p .conten .isi{
+    width: 773;
+}
+
+.wrap-p .conten hr {
+    height: 1px;
+    background: #000000;
+    width: 773;
+    border: 1px solid;
+    
+}

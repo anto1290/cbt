@@ -1,0 +1,229 @@
+body {
+	width: 794px;
+	height: 1123px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.colom1 {
+	width: 48%;
+	height: 100%;
+	margin-top: 3px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	float: left;
+}
+
+.colom1 .headkartu {
+	border: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+
+}
+
+.colom1 .headkartu img {
+	margin-top: 2px;
+	margin-left: 0px;
+}
+
+.colom1 p {
+	margin-top: -10px;
+	font-size: 7pt;
+	margin-bottom: 7px;
+}
+
+.colom1 .foot p {
+	margin-top: -10px;
+	font-size: 5.5pt;
+	margin-bottom: 7px;
+}
+
+.colom2 {
+	width: 48%;
+	height: 100%;
+	margin-top: 3px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	margin-right: 9px;
+	float: left;
+}
+
+.colom2 .headkartu {
+	border: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+
+}
+
+.colom2 .headkartu img {
+	margin-top: 2px;
+	margin-left: 0px;
+}
+
+.colom2 p {
+	margin-top: -10px;
+	font-size: 7pt;
+	margin-bottom: 7px;
+}
+
+.colom2 .foot p {
+	margin-top: -10px;
+	font-size: 5.5pt;
+	margin-bottom: 7px;
+}
+
+.colom1 .bbodykartu {
+	border-left: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	border-right: 1px solid;
+}
+
+.colom1 .bbodykartu h6 {
+	font-size: 14pt;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.colom1 .bbodykartu h5 {
+	font-size: 14pt;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.colom1 .bodykartu {
+	border-left: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	border-right: 1px solid;
+}
+
+.colom1 .bodykartu p {
+	font-size: 12pt;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: oblique;
+}
+
+.colom2 .bbodykartu {
+	border-left: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	border-right: 1px solid;
+}
+
+.colom2 .bbodykartu h6 {
+	font-size: 14pt;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.colom2 .bbodykartu h5 {
+	font-size: 14pt;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.colom2 .bodykartu {
+	border-left: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	border-right: 1px solid;
+}
+
+.colom2 .bodykartu img {
+	margin-left: -30px;
+	width: 2cm;
+	height: 3cm;
+}
+
+.colom1 .bodykartu img {
+	margin-left: -30px;
+	width: 2cm;
+	height: 3cm;
+}
+
+.colom2 .bodykartu p {
+	font-size: 12pt;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: oblique;
+}
+
+.colom1 .footerKartu {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	border-right: 1px solid;
+}
+
+.colom1 .bummper {
+	border-left: 1px solid black;
+	/* border-top: 1px solid black;
+	border-bottom: 1px solid black; */
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	height: 18px;
+	border-right: 1px solid;
+}
+
+.colom2 .bummper {
+	border-left: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	height: 18px;
+	border-right: 1px solid;
+}
+
+.colom1 .footerKartu p {
+	font-size: 9pt;
+	font-family: 'Times New Roman';
+	font-style: oblique;
+	margin-top: auto;
+	margin-bottom: 0;
+}
+
+.colom1 .footerKartu span {
+	font-size: 9pt;
+	font-family: 'Times New Roman';
+	font-style: oblique;
+	margin-top: 0;
+}
+
+.colom2 .footerKartu {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	border-right: 1px solid;
+}
+
+.colom2 .footerKartu p {
+	font-size: 9pt;
+	font-family: 'Times New Roman';
+	font-style: oblique;
+	margin-top: auto;
+	margin-bottom: 0;
+}
+
+.colom2 .footerKartu span {
+	font-size: 9pt;
+	font-family: 'Times New Roman';
+	font-style: oblique;
+	margin-top: 0;
+}

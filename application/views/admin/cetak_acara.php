@@ -1,0 +1,1 @@
+<img src="<?= $_SERVER["DOCUMENT_ROOT"].'gambar/smk.png'; ?>" alt="" srcset="">

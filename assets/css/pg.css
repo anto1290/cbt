@@ -1,0 +1,160 @@
+     body {
+     	-webkit-touch-callout: none;
+     	/* iOS Safari */
+     	-webkit-user-select: none;
+     	/* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
+     	-moz-user-select: none;
+     	/* Firefox */
+     	-ms-user-select: none;
+     	/* IE 10+ and Edge */
+     	user-select: none;
+     	/* Non-prefixed version, 
+								currently supported by Chrome and Opera */
+     }
+
+     .badgebox {
+     	opacity: 0;
+     }
+
+     .badgebox+.badge {
+     	/* Move the check mark away when unchecked */
+     	text-indent: -999px;
+     	/* Makes the badge's width stay the same checked and unchecked */
+     	border: 1px solid black;
+     	width: 20px;
+     }
+
+     .badgebox:focus+.badge {
+     	/* Set something to make the badge looks focused */
+     	/* This really depends on the application, in my case it was: */
+
+     	/* Adding a light border */
+     	box-shadow: inset 0px 0px 5px;
+     	/* Taking the difference out of the padding */
+     }
+
+     .badgebox:checked+.badge {
+     	/* Move the check mark back when checked */
+     	text-indent: 0;
+     }
+
+     /* .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 250px;
+        margin-left: 580px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(192, 192, 192, 0.5);
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    } */
+     .loader {
+     	position: fixed;
+     	top: 0;
+     	left: 0;
+     	width: 100%;
+     	height: 100%;
+     	background-color: rgba(2, 2, 2, 0.86);
+     	z-index: 100;
+     	background-repeat: no-repeat;
+     }
+
+     .loader img {
+     	margin-left: 680px;
+     	width: 100px;
+     	margin-top: 250px;
+     	position: absolute;
+     }
+
+     /* For mobile phones: */
+     @media only screen and (max-width:400px) {
+     	.loader img {
+     		margin-left: 45%;
+     		margin-top: 50%;
+     		width: 60px;
+     		position: absolute;
+     	}
+     }
+
+     @media only screen and (min-width:500px) and (max-width: 768px) {
+     	.loader img {
+     		margin-left: 45%;
+     		margin-top: 50%;
+     		width: 95px;
+     		position: absolute;
+     	}
+     }
+
+     /* Safari */
+     @-webkit-keyframes spin {
+     	0% {
+     		-webkit-transform: rotate(0deg);
+     	}
+
+     	100% {
+     		-webkit-transform: rotate(360deg);
+     	}
+     }
+
+     @keyframes spin {
+     	0% {
+     		transform: rotate(0deg);
+     	}
+
+     	100% {
+     		transform: rotate(360deg);
+     	}
+     }
+
+     #hcr {
+     	position: fixed;
+     	top: 180px;
+     	z-index: 100;
+     }
+
+     *html #hcr {
+     	position: relative;
+     }
+
+     .hcrtab {
+     	height: 60px;
+     	width: 55px;
+     	float: left;
+     	cursor: pointer;
+     }
+
+     .hcrtab img {
+     	height: 60px;
+     	width: 60px;
+     }
+
+     .hcrcontent {
+     	float: left;
+     	border: 2px solid #003e82;
+     	background: #f3f6f7;
+     	width: 350px;
+     	height: 300px;
+     	padding: 10px;
+     	overflow-x: hidden;
+     	/* Hide horizontal scrollbar */
+     	overflow-y: scroll;
+     }
+
+     .hc-credit {
+     	font-size: 9px
+     }
+
+     .hc-credit a {
+     	text-decoration: none
+     }

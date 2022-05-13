@@ -1,0 +1,36 @@
+.login {
+    margin: 0 auto;
+}
+h3,h4{
+    text-align: center;
+}
+.container h2,h3{
+    animation-name: fadeInshow;
+    animation-delay: 300ms;
+    animation-duration: 2s;
+}
+label{
+    animation-name: fromleftToRight;
+    animation-duration: 2s;
+}
+input,select{
+    animation-name: fromleftToRight;
+    animation-duration: 2.5s;
+}
+@keyframes fadeInshow {
+    from{
+        
+        opacity: 0;
+    }to {
+        opacity: 1;
+    }
+}
+@keyframes fromleftToRight {
+    from{
+        opacity: 0;
+        transform: translateX(-200px);
+    }to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
